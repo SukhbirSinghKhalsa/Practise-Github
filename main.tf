@@ -10,3 +10,7 @@ terraform {
 provider "azurerm" {
   # Configuration options
 }
+resource "azurerm_resource_group" "name" {
+ name = "mango"
+ location = "east us"
+}
